@@ -1,0 +1,134 @@
+body{
+  background: #f5f6fa;
+  margin:0;
+  padding: 0;
+}
+.bar {
+  background-color: #333;
+  overflow: hidden;
+  height: 80px;
+}
+
+.bar p {
+  position: absolute;
+  color:white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.nav{
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  float: right;
+  margin-top: 30px;
+  margin-right: 140px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+}
+.nav a:hover{
+  background: green;
+}
+.drop{
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  top: 53px;
+  left: 90%;
+  position: absolute;
+  background: #ffffff;
+  display: none;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+.drop a{
+  font-family: sans-serif;
+  font-weight: 550;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+}
+.drop a:hover{
+  background: #dfe4ea;
+}
+.dropdown:hover .drop{
+  display: block;
+}
+.dropdown img{
+  width: 30px;
+  margin-top: -57px;
+  margin-left: 90%;
+}
+img:hover{
+  background: green;
+  border-radius: 20px;
+}
+.myq{
+  position: absolute;
+  right:80px;
+  top:16%;
+  border:none;
+  background: #1dd1a1;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.myq:hover{
+  background: #10ac84;
+ cursor: pointer;
+}
+  .form {
+  	 width: 700px;
+  	 height: 700px;
+     font-size: 20px;
+     font-family: sans-serif;
+  	 background: rgba(0,0,0,0);
+  	 color: black;
+  	 top: 70%;
+  	 left: 25%;
+  	 position: absolute;
+  	 transform: translate(-50%,-50%);
+  	 box-sizing: border-box;
+  	 padding: 70px 30px;
+  }
+  .title{
+    font-weight: bold;
+    font-size:40px;
+    color: #2f3640;
+    font-family: sans-serif;
+    margin-left:510px;
+    margin-top: 20px;
+  }
+  select{
+    padding: 5px 5px;
+    border-radius: 5px;
+  }
+  .form input[type="text"]{
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
+  	  background: white;
+  	  height: 30px;
+      padding: 5px 5px;
+      width: 250px;
+  	  color:black;
+    }
+textarea{
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-family: sans-serif;
+}
+.form input[type="submit"] {
+  	width: 100px;
+  	height: 35px;
+  	font-weight:bold;
+    color:#353b48;
+  }
+  .form input[type="submit"]:hover {
+  	  cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
